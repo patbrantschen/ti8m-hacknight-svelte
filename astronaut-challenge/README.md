@@ -1,17 +1,17 @@
 # Prerequisite
 * Install node: https://nodejs.org/en/download
-* Install VSCode: https://code.visualstudio.com/download (other other IDE)
-* Install Svelte plugin: https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
+* Install VSCode: https://code.visualstudio.com/download (or other IDE)
+* Install Svelte plugin: https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode (or for your IDE)
     
 # Links for more information about svelte
 
 # Challenges
 
-Step 1: Setup Svelte Application
-Step 2: Build layout with components
-Step 3: Request and display current astronauts in space from API http://api.open-notify.org/astros.json
-Step 4: Send new astronauts to space
-Step 5: Animate takeoff of space shuttle
+1. Setup Svelte Application
+2. Build layout with components
+3. Request and display current astronauts in space from API http://api.open-notify.org/astros.json
+4. Send new astronauts to space
+5. Animate takeoff of space shuttle
 
 # create-svelte
 
