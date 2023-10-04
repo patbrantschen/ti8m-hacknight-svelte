@@ -4,6 +4,10 @@
 * Install Svelte plugin: https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode (or for your IDE)
     
 # Links for more information about svelte
+* [Examples](https://svelte.dev/examples/hello-world)
+* [Interactive Tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte)
+* [API documentation](https://svelte.dev/docs/introduction)
+* [Playground](https://svelte.dev/repl/hello-world?version=4.2.1)
 
 # Challenges
 
