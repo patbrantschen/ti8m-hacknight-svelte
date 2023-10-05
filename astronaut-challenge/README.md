@@ -18,6 +18,9 @@
 5. Alert when there are too many astronauts on a craft
 6. Animate takeoff of space shuttle
 
+![Challenge Goal](./assets/img/goal.png)
+
+
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
