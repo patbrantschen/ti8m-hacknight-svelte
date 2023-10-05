@@ -3,7 +3,7 @@
   import issImage from './assets/iss.png'
   import tiangongImage from './assets/tiangong.png'
   import rocket from './assets/rocket.png'
-  import { apiData, people } from './store.js';
+  import { apiData, issAstronauts, tiangongAstronauts } from './store.js';
 
   onMount(async () => {
   fetch("http://api.open-notify.org/astros.json")
@@ -26,10 +26,8 @@
         <div class="craft-crew">
           <span>Astronauts: </span>
           <ul>
-            {#each $people as astronaut}
-              {#if astronaut.craft == "ISS"}
-                <li>{astronaut.name}</li>
-              {/if}
+            {#each $issAstronauts as astronaut}
+                <li>{astronaut}</li>
             {/each}
             </ul>
         </div>
@@ -40,10 +38,8 @@
         <div class="craft-crew">
           <span>Astronauts: </span>
           <ul>
-            {#each $people as astronaut}
-              {#if astronaut.craft == "Tiangong"}
-                <li>{astronaut.name}</li>
-              {/if}
+            {#each $tiangongAstronauts as astronaut}
+                <li>{astronaut}</li>
             {/each}
             </ul>
         </div>
