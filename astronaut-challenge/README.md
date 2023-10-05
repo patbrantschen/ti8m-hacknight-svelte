@@ -15,11 +15,8 @@
 2. Build layout with components
 3. Request and display current astronauts in space from API http://api.open-notify.org/astros.json
 4. Send new astronauts to space
-5. Animate takeoff of space shuttle
-
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+5. Alert when there are too many astronauts on a craft
+6. Animate takeoff of space shuttle
 
 ## Creating a project
 
@@ -27,10 +24,8 @@ If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
 # create a new project in the current directory
-npm create svelte@latest
+npm create vite@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
 ```
 
 ## Developing
